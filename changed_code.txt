@@ -1,0 +1,10 @@
+from threading import Thread    
+    def timer(self):
+    	t = Thread(target = lambda: os.system("python Stopwatch_one.py"))
+    	t.start()
+
+
+        self.ShortestPathAlgo = QPushButton(self.centralwidget)
+        self.ShortestPathAlgo.setObjectName(u"ShortestPathAlgo")
+
+        self.gridLayout_2.addWidget(self.ShortestPathAlgo, 4, 2, 1, 1)
